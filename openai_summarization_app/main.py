@@ -173,7 +173,8 @@ def generate_response(txt):
     Note: Please ensure that your summary is coherent and readable, maintaining the logical flow of the original text. Include relevant details from the text to support your summary while avoiding excessive repetition or extraneous information.
     """
 
-    prompt = """Summarize this text and emphasize the scary parts, making it sound like a horror story"""
+    # horrifying prompt. don't use this near children.
+    # prompt = """Summarize this text and emphasize the scary parts, making it sound like a horror story"""
     return call_openai_api(prompt, shrunk_text)
 
 

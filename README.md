@@ -16,14 +16,21 @@ We recommend using [Poetry](https://python-poetry.org/) as your package manager.
 2. **Install Poetry (if not already installed):**
 
     ```shell
-    pip install poetry 
-3. Set up environment variables:
+    pip install poetry
+3. 2. **Install streamlit (if not already installed):**
+
+    ```shell
+    pip install streamlit  
+4. Set up environment variables:
 
     ```shell
     cp .env.example .env
     ```
     Update `.env` to include your OPENAI_API_KEY.
+5. **Install dependencies:**
 
+    ```shell
+    poetry install
 
 ## Usage
 ```shell
