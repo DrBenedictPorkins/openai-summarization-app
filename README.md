@@ -24,6 +24,7 @@ We recommend using [Poetry](https://python-poetry.org/) as your package manager.
 4. Set up environment variables:
 
     ```shell
+    cd openai-summarization-app
     cp .env.example .env
     ```
     Update `.env` to include your OPENAI_API_KEY.
