@@ -10,7 +10,7 @@ We recommend using [Poetry](https://python-poetry.org/) as your package manager.
 1. **Clone the repository:**
 
    ```shell
-   git clone https://github.com/yourusername/openai-summarization-app.git
+   git clone https://github.com/DrBenedictPorkins/openai-summarization-app.git
    cd openai-summarization-app
 
 2. **Install Poetry (if not already installed):**
